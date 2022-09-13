@@ -1,0 +1,180 @@
+/* element sorting from 2013 article used */
+
+/* FOOTER */
+footer {
+	background-color: #F9B36F;
+  color: white;
+  padding: 3px;
+	text-align: center;
+}
+
+footer a{
+		text-decoration: none;
+}
+/*END FOOTER*/
+
+/* NAV BAR */
+nav {
+	background-color: #F9B36F;
+	float: right;
+	padding-right: 100px;
+}
+
+div {
+  display: inline-block;
+}
+
+/* page 4 heading w/link to michael's website */
+h1 a{
+	color: #F9B36F;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+/* smaller images on home page */
+h4 + img {
+  padding=20px;
+}
+
+/* form items start */
+form {
+	background-color: F9F1EA;
+}
+
+legend {
+	color: #F9B36F;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+label {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* form items end */
+
+/* table formatting: */
+
+table, th, td {
+	border: 1px;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	margin-bottom:40;
+	width: 60%;
+}
+
+tr:hover {
+	background-color:#F7D6B9;
+}
+
+th {
+  background-color: #F9B36F;
+  color: white;
+	padding:30px;
+}
+
+td {
+  text-align: center;
+}
+
+/* end table formatting */
+
+/* more nav bar start */
+.menu li{
+  display: inline;
+	font-family: "Courier New", Monospace;
+	font-size: 40px;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	background-color:gray;
+}
+
+.menu {
+	position: sticky;
+	top: 0;
+	word-spacing: 50px;
+}
+/* more nav bar end */
+
+/* page 2 table centering */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* font setting for sentence on home page */
+.intro {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* orange offset border for candy corn image on homepage */
+.candycorn {
+	border:50px solid transparent;
+  border-width:120px 75px 75px 120px;
+	display: inline-block;
+  margin-left: 200;
+  margin-right: 40;
+	margin:-60px 0 0 -75px;
+  outline:8px solid #F9B36F;
+  outline-offset:-100px;
+}
+
+/* video on homepage */
+.video {
+	margin-bottom: 75;
+}
+
+/* smaller hover images on homepage START */
+.container {
+  position: relative;
+  width: 15%;
+}
+
+.overlay {
+  background-color: #F7D6B9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* smaller hover images on homepage END */
+
+/* page 4 */
+#content {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+/* google font link */
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
